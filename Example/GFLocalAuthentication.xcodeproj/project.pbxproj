@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		075D850A55066CB9AEC9D7ED /* Pods-GFLocalAuthentication_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLocalAuthentication_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFLocalAuthentication_Tests/Pods-GFLocalAuthentication_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3591DA4DB716CE3A6FEBEA65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3591DA4DB716CE3A6FEBEA65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GFLocalAuthentication_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFLocalAuthentication_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		745E5801879355C042F5B18E /* Pods-GFLocalAuthentication_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLocalAuthentication_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFLocalAuthentication_Example/Pods-GFLocalAuthentication_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D5F95337CDEAA1D110D93E1 /* Pods-GFLocalAuthentication_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLocalAuthentication_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFLocalAuthentication_Example/Pods-GFLocalAuthentication_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8F3B33DDF0C75D1D52F572BC /* Pods_GFLocalAuthentication_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFLocalAuthentication_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8A893F215455C4B6A300B0D /* GFLocalAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GFLocalAuthentication.podspec; path = ../GFLocalAuthentication.podspec; sourceTree = "<group>"; };
+		A8A893F215455C4B6A300B0D /* GFLocalAuthentication.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GFLocalAuthentication.podspec; path = ../GFLocalAuthentication.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1D923BC4897487A478859B5 /* Pods_GFLocalAuthentication_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFLocalAuthentication_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7BAEB45D881D3FCCFEB101E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C7BAEB45D881D3FCCFEB101E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,7 +491,7 @@
 				INFOPLIST_FILE = GFLocalAuthentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = it.epress.localauthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -506,7 +506,7 @@
 				INFOPLIST_FILE = GFLocalAuthentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = it.epress.localauthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

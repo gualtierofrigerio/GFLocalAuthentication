@@ -1,0 +1,6 @@
+framework module GFLocalAuthentication {
+  umbrella header "GFLocalAuthentication-umbrella.h"
+
+  export *
+  module * { export * }
+}

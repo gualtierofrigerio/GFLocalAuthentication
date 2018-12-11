@@ -1,0 +1,6 @@
+framework module Pods_GFLocalAuthentication_Tests {
+  umbrella header "Pods-GFLocalAuthentication_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
