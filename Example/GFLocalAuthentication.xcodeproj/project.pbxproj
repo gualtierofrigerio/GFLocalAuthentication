@@ -213,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5V4J7VM9P5;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5V4J7VM9P5;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -488,6 +490,7 @@
 			baseConfigurationReference = 8D5F95337CDEAA1D110D93E1 /* Pods-GFLocalAuthentication_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V4J7VM9P5;
 				INFOPLIST_FILE = GFLocalAuthentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -503,6 +506,7 @@
 			baseConfigurationReference = 745E5801879355C042F5B18E /* Pods-GFLocalAuthentication_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V4J7VM9P5;
 				INFOPLIST_FILE = GFLocalAuthentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -517,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65B7C638CD7013E413ED5F55 /* Pods-GFLocalAuthentication_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5V4J7VM9P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -539,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 075D850A55066CB9AEC9D7ED /* Pods-GFLocalAuthentication_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5V4J7VM9P5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var debugLabel: UILabel!
+    @IBOutlet weak var biometricButton: UIButton!
     
     var gfLocalAuthentication:GFLocalAuthentication?
     
@@ -21,6 +22,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         gfLocalAuthentication = GFLocalAuthentication()
         gfLocalAuthentication?.configureKeychain(service: "MyServiceName", group: nil)
+        biometricButton.isEnabled = false
+        if let biometricAvailable = gfLocalAuthentication?.isBiometricAuthenticationAvailable(),
+           biometricAvailable.available == true {
+            if biometricAvailable.type == .biometricTypeTouchID {
+                biometricButton.setTitle("Login with TouchID", for: .normal)
+            }
+            else {
+                biometricButton.setTitle("Login with FaceID", for: .normal)
+            }
+            biometricButton.isEnabled = true
+        }
     }
 
     @IBAction func addAccountTap(_ sender: Any) {
@@ -52,6 +64,19 @@ class ViewController: UIViewController {
         else {
             debugLabel.text = "couldn't get username from the keychain"
         }
+    }
+    
+    @IBAction func loginBiometricTap(_ sender: Any) {
+        gfLocalAuthentication?.attempBiometricAuthentication(reason: "login", revertToPasscode: false, callback: { (success) in
+            DispatchQueue.main.async { 
+                if success == true {
+                    self.debugLabel.text = "Biometric authentication passed"
+                }
+                else {
+                    self.debugLabel.text = "Biometric authentication failed"
+                }
+            }
+        })
     }
 }
 
