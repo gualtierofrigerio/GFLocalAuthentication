@@ -22,7 +22,7 @@ pod 'GFLocalAuthentication'
 
 ## Author
 
-gualtierofrigerio, gualtiero.frigerio@epress.it
+gualtierofrigerio, gualtiero.frigerio@gmail.com
 
 ## License
 
